@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e4a75d2-453d-4fd4-8517-f20867163441" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/N1_TwoSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/N26_RemoveDuplicatesFromSortedArray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/N27_RemoveElement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/N2_AddTwoNumbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/N80_RemoveDuplicatesFromSortedArray2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/N88_MergeSortedArray.kt" afterDir="false" />
+    <list default="true" id="7e4a75d2-453d-4fd4-8517-f20867163441" name="Changes" comment="2 Add Two Numbers">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/N2_AddTwoNumbers_Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +18,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "IvanChugreev"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/IvanChugreev/KotlinLeetCode.git",
@@ -49,11 +48,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.N2_AddTwoNumbers_Test.addTwoNumbers.executor": "Run",
+    "JUnit.N2_AddTwoNumbers_Test.addTwoNumbers_Test1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/r/obas-89",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.N2_AddTwoNumbers_Test.addTwoNumbers_Test1">
+    <configuration name="N2_AddTwoNumbers_Test.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KotlinLeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="N2_AddTwoNumbers_Test" />
+      <option name="METHOD_NAME" value="addTwoNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N2_AddTwoNumbers_Test.addTwoNumbers_Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KotlinLeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="N2_AddTwoNumbers_Test" />
+      <option name="METHOD_NAME" value="addTwoNumbers_Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.N2_AddTwoNumbers_Test.addTwoNumbers_Test1" />
+        <item itemvalue="JUnit.N2_AddTwoNumbers_Test.addTwoNumbers" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +107,73 @@
       <option name="presentableId" value="Default" />
       <updated>1728283218514</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1728284211666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728284211666</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1 Two Sum">
+      <option name="closed" value="true" />
+      <created>1728313407463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728313407463</updated>
+    </task>
+    <task id="LOCAL-00003" summary="26 Remove Duplicates From Sorted Array">
+      <option name="closed" value="true" />
+      <created>1728313457022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728313457022</updated>
+    </task>
+    <task id="LOCAL-00004" summary="80 Remove Duplicates From Sorted Array 2">
+      <option name="closed" value="true" />
+      <created>1728313473747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728313473747</updated>
+    </task>
+    <task id="LOCAL-00005" summary="27 Remove Element">
+      <option name="closed" value="true" />
+      <created>1728313494441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728313494441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="88 Merge Sorted Array">
+      <option name="closed" value="true" />
+      <created>1728313525149</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728313525149</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2 Add Two Numbers">
+      <option name="closed" value="true" />
+      <created>1728313571597</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728313571597</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="1 Two Sum" />
+    <MESSAGE value="26 Remove Duplicates From Sorted Array" />
+    <MESSAGE value="80 Remove Duplicates From Sorted Array 2" />
+    <MESSAGE value="27 Remove Element" />
+    <MESSAGE value="88 Merge Sorted Array" />
+    <MESSAGE value="2 Add Two Numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 Add Two Numbers" />
   </component>
 </project>
