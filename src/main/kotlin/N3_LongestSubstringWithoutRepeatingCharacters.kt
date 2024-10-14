@@ -5,7 +5,7 @@ class N3_LongestSubstringWithoutRepeatingCharacters {
         s.forEachIndexed { index, char ->
             if (uniqueSymbols.contains(char)) {
                 if (uniqueSymbols.size > maxLength) maxLength = uniqueSymbols.size
-                for (i in index-uniqueSymbols.size..<index) {
+                for (i in index - uniqueSymbols.size..<index) {
                     if (s[i] == char) break else uniqueSymbols.remove(s[i])
                 }
             } else {

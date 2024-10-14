@@ -1,14 +1,4 @@
 class N5_LongestPalindromicSubstring {
-    fun preprocessString(s: String): String {
-        val sb = StringBuilder()
-        sb.append('#')
-        for (ch in s) {
-            sb.append(ch)
-            sb.append('#')
-        }
-        return sb.toString()
-    }
-
     fun longestPalindrome(s: String): String {
         val processedString = preprocessString(s)
         val n = processedString.length
@@ -20,7 +10,7 @@ class N5_LongestPalindromicSubstring {
         for (i in 0 until n) {
             val mirror = 2 * C - i
             if (i < R) {
-                P[i] = Math.min(R - i, P[mirror])
+                P[i] = minOf(R - i, P[mirror])
             }
             var a = i + P[i] + 1
             var b = i - P[i] - 1
@@ -40,5 +30,15 @@ class N5_LongestPalindromicSubstring {
         }
         val start = (centerIndex - maxLen) / 2
         return s.substring(start, start + maxLen)
+    }
+
+    private fun preprocessString(s: String): String {
+        val sb = StringBuilder()
+        sb.append('#')
+        for (ch in s) {
+            sb.append(ch)
+            sb.append('#')
+        }
+        return sb.toString()
     }
 }
