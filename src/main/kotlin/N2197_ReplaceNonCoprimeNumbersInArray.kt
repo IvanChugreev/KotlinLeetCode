@@ -1,3 +1,5 @@
+import utils.gcd
+
 class N2197_ReplaceNonCoprimeNumbersInArray {
     fun replaceNonCoprimes(nums: IntArray): List<Int> {
         val result = ArrayList<Int>()
@@ -16,6 +18,4 @@ class N2197_ReplaceNonCoprimeNumbersInArray {
         }
         return result
     }
-
-    private tailrec fun gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a % b)
 }
